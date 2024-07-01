@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home | Sammi Jones Design</title>
+    <link rel="stylesheet" href="main.css?v=<?=filemtime('main.css')?>" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="new mobile nav.js" defer></script>
+
+</head>
+
+<body class="home">
+
+
+
+
+    <div class="site-header">
+
+        <div class="site-title">
+            <span class="title-text">sammi jones/<br /></span>
+            <span class="title-sub-text">*digital designer/ <br /></span>
+        </div>
+
+
+        <ul class="primary-nav">
+            <li><a href="index.html"> <span aria-hidden="true"></span>home</a>/</li>
+            <li><a href="projects.html"> <span aria-hidden="true"></span>work</a>/</li>
+            <li><a class="active-page" href="resume.html"> <span aria-hidden="true"></span>resume</a>/</li>
+            <li><a href="contact.html"> <span aria-hidden="true"></span>contact</a>/</li>
+
+
+        </ul>
+    </div>
+
+    <div class="resume-page-content">
+
+        <div class="experience-column">
+
+            <span class="title-text">experience<br /></span>
+
+            <li>
+                <a href="https://drips.com/" target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>/Drips</a>
+            </li>
+
+            <li>
+                <a href="https://www.callisonrtkl.com/" target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>/CallisonRTKL</a>
+            </li>
+            <li>
+                <a href="https://www.psfk.com/" target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>/PSFK</a>
+            </li>
+            <li>
+                <a href="https://www.grey.com/" target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>/Grey</a>
+            </li>
+
+
+
+        </div>
+
+        <div class="experience-column">
+
+            <span class="title-text">download<br /></span>
+            <li>
+                <a href="https://6b240d6f-22e7-4cd0-afee-720eb5ba8e55.usrfiles.com/ugd/6b240d_e7bd006ec3af46109322a385ff10f444.pdf"
+                    target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>/resume</a>
+            </li>
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <button class="mobile-nav-toggle" aria-controls="mobile-menu-id" aria-expanded="false">
+
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+
+
+
+    </button>
+
+    <nav class="mobile-menu" data-visible="false" id="mobile-menu-id">
+        <ul class="mobile-nav-links">
+            <li>
+                <a href="index.html"> <span aria-hidden="true"></span>home.</a>
+            </li>
+
+            <li class="active-mobile">
+                <a href="projects.html"> <span aria-hidden="true"></span>work.</a>
+            </li>
+
+            <li>
+                <a href="https://37095e80-8fa4-4e13-bd9a-cabdc10f3747.filesusr.com/ugd/6b240d_8fbf6563ae5645b49f091e89113af6bd.pdf"
+                    target="_blank" rel="”noopener" noreferrer”>
+                    <span aria-hidden="true"></span>resume.</a>
+            </li>
+
+            <li>
+                <a href="contact.html"> <span aria-hidden="true"></span>contact.</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js"
+        integrity="sha512-zaTjCyJwbhpd8V594wpmUStv6Dy/SnmP7jR+XXnE49z2ayHkSirlNiP4XQc15Zgk+p5gXGe5ZUQYu4yRtShqkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Flip.min.js"
+        integrity="sha512-Vi0uAaoQQrIY8GZpbmwDW+BpKS+Xhf3FCh0iLWNR6oHlFtZ2hBzWoMEr4NXLd7CBnPKSjfL7fJxzk3inVPasdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
+        integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <script>
+        let tl = gsap.timeline({
+            defaults: { ease: "power3.inOut", duration: 2 },
+        });
+    </script>
+
+    <script src="load.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
